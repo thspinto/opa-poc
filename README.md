@@ -21,10 +21,10 @@ docker-compose up -d
 Testing:
 
 ```
-curl --user david:password localhost:5000/finance/salary/alice
-curl --user david:password localhost:5000/finance/salary/bob
-curl --user david:password localhost:5000/finance/salary/charlie
-curl --user david:password localhost:5000/finance/salary/david
+curl --user david:password localhost:8000/finance/salary/alice
+curl --user david:password localhost:8000/finance/salary/bob
+curl --user david:password localhost:8000/finance/salary/charlie
+curl --user david:password localhost:8000/finance/salary/david
 ```
 
 Decision logs should be available in [Kibana](http://localhost:5601/)

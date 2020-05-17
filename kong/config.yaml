@@ -1,0 +1,9 @@
+_format_version: "1.1"
+
+services:
+- name: api_server
+  url: http://api_server:5000
+  routes:
+    - name: all
+      paths:
+        - /*
